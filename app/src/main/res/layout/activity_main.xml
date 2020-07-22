@@ -8,6 +8,7 @@
 
 
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -17,6 +18,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:orientation="horizontal"
         android:background="@color/colorAccent"
+
         >
 
         <ImageView
@@ -58,9 +60,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 
-
         </LinearLayout>
-
 
 
 
@@ -68,13 +68,77 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:id="@+id/lin1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7"
+        android:orientation="horizontal"
+        android:background="@color/colorAccent"
+        android:transitionName="lin1"
+        >
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:hint="測試一"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8"
+        android:orientation="horizontal"
+        android:background="@color/colorAccent"
+        android:transitionName="lin2"
+        >
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:hint="測試一"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9"
+        android:orientation="horizontal"
+        android:background="@color/colorAccent"
+        android:transitionName="lin3"
+        >
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:hint="測試一"/>
+
+    </LinearLayout>
+
+
+
+
     <Button
         android:id="@+id/btnToPage2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

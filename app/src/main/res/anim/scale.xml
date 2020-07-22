@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <scale xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="1000"
+        android:fromXScale="0.0"
+        android:fromYScale="0.0"
+        android:pivotX="50%"
+        android:pivotY="0%"
+        android:toXScale="1"
+        android:toYScale="1" />
+
+
+    <!--
+      fromXScale,fromYScale， 动画开始前X,Y的缩放倍数
+      toXScale，toYScale， 动画最终缩放的倍数
+      pivotX， pivotY 动画起始位置，相对于屏幕的百分比,两个都为50%表示动画从自身中间开始
+  -->
+
+
+</set>
